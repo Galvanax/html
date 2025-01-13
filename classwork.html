@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobbies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #6200ea, #3700b3);
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #6200ea;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        audio, video {
+            display: block;
+            margin: 10px auto;
+            width: 100%;
+            max-width: 600px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background: #6200ea;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background: #3700b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Hobbies</h1>
+    </header>
+    <main>
+        <section id="music">
+            <h2>Music</h2>
+            <p>I love listening to music. Here is one of my favorite tracks:</p>
+            <audio controls>
+                <source src="128-Hauli Hauli - Khel Khel Mein 128 Kbps.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <a href="128-Hauli Hauli - Khel Khel Mein 128 Kbps.mp3" class="button" download>Download Music</a>
+        </section>
+
+        <section id="videos">
+            <h2>Videos</h2>
+            <p>I enjoy watching videos related to my hobbies. Here is a video clip I like:</p>
+            <video controls>
+                <source src="2324274-uhd_3840_2160_25fps.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <a href="2324274-uhd_3840_2160_25fps.mp4" class="button" download>Download Video</a>
+        </section>
+
+        <section id="images">
+            <h2>Images</h2>
+            <p>Here are some pictures that inspire me:</p>
+            <img src="download (1).jpg" alt="Hobby Image 1">
+            <img src="download.jpg" alt="Hobby Image 2">
+            <a href="download (1).jpg" class="button" download>Download Image 1</a>
+            <a href="download.jpg" class="button" download>Download Image 2</a>
+        </section>
+    </main>
+</body>
+</html>
